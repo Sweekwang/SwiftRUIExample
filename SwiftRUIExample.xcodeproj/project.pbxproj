@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		20CD82072C343C0500FF0EE3 /* SwiftRUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82062C343C0500FF0EE3 /* SwiftRUIExampleApp.swift */; };
-		20CD82092C343C0500FF0EE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82082C343C0500FF0EE3 /* ContentView.swift */; };
+		20CD82092C343C0500FF0EE3 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82082C343C0500FF0EE3 /* OnBoarding.swift */; };
 		20CD820B2C343C0500FF0EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CD820A2C343C0500FF0EE3 /* Assets.xcassets */; };
 		20CD820E2C343C0500FF0EE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CD820D2C343C0500FF0EE3 /* Preview Assets.xcassets */; };
 		20CD82182C343C1100FF0EE3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82152C343C1100FF0EE3 /* Fonts.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		20CD82032C343C0500FF0EE3 /* SwiftRUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CD82062C343C0500FF0EE3 /* SwiftRUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRUIExampleApp.swift; sourceTree = "<group>"; };
-		20CD82082C343C0500FF0EE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20CD82082C343C0500FF0EE3 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		20CD820A2C343C0500FF0EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CD820D2C343C0500FF0EE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20CD82152C343C1100FF0EE3 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			children = (
 				20CD82142C343C1100FF0EE3 /* Theme */,
 				20CD82062C343C0500FF0EE3 /* SwiftRUIExampleApp.swift */,
-				20CD82082C343C0500FF0EE3 /* ContentView.swift */,
+				20CD82082C343C0500FF0EE3 /* OnBoarding.swift */,
 				20CD820A2C343C0500FF0EE3 /* Assets.xcassets */,
 				20CD820C2C343C0500FF0EE3 /* Preview Content */,
 			);
@@ -162,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CD82092C343C0500FF0EE3 /* ContentView.swift in Sources */,
+				20CD82092C343C0500FF0EE3 /* OnBoarding.swift in Sources */,
 				20CD821A2C343C1100FF0EE3 /* Colors.swift in Sources */,
 				20CD82192C343C1100FF0EE3 /* Theme.swift in Sources */,
 				20CD82182C343C1100FF0EE3 /* Fonts.swift in Sources */,
@@ -378,7 +378,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Sweekwang/SwiftRUI";
 			requirement = {
-				branch = main;
+				branch = development;
 				kind = branch;
 			};
 		};

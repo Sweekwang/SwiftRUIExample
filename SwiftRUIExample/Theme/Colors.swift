@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftRUI
 
+/// No color is set because SwiftRUIExample will be using all the default colors
 let colorsTheme = ColorTheme(
     accent: Color.blue
 )

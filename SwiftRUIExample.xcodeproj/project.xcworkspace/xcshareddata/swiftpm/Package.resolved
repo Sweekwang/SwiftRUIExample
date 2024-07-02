@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Sweekwang/SwiftRUI",
       "state" : {
-        "branch" : "main",
-        "revision" : "bf1deced404f704c99a3a6e93f97dc792b5fa2ed"
+        "branch" : "development",
+        "revision" : "ca12d8694e19bd200d041475abdd284fc89a7a19"
       }
     }
   ],
