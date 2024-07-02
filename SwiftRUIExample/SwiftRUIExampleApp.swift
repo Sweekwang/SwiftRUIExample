@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftRUI
 
 @main
 struct SwiftRUIExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .applyThemeEnvironment(theme)
         }
     }
 }

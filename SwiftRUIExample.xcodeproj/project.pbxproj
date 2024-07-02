@@ -11,6 +11,10 @@
 		20CD82092C343C0500FF0EE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82082C343C0500FF0EE3 /* ContentView.swift */; };
 		20CD820B2C343C0500FF0EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CD820A2C343C0500FF0EE3 /* Assets.xcassets */; };
 		20CD820E2C343C0500FF0EE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CD820D2C343C0500FF0EE3 /* Preview Assets.xcassets */; };
+		20CD82182C343C1100FF0EE3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82152C343C1100FF0EE3 /* Fonts.swift */; };
+		20CD82192C343C1100FF0EE3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82162C343C1100FF0EE3 /* Theme.swift */; };
+		20CD821A2C343C1100FF0EE3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD82172C343C1100FF0EE3 /* Colors.swift */; };
+		20CD821D2C343C1D00FF0EE3 /* SwiftRUI in Frameworks */ = {isa = PBXBuildFile; productRef = 20CD821C2C343C1D00FF0EE3 /* SwiftRUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,9 @@
 		20CD82082C343C0500FF0EE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20CD820A2C343C0500FF0EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CD820D2C343C0500FF0EE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20CD82152C343C1100FF0EE3 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		20CD82162C343C1100FF0EE3 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		20CD82172C343C1100FF0EE3 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CD821D2C343C1D00FF0EE3 /* SwiftRUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +59,7 @@
 		20CD82052C343C0500FF0EE3 /* SwiftRUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				20CD82142C343C1100FF0EE3 /* Theme */,
 				20CD82062C343C0500FF0EE3 /* SwiftRUIExampleApp.swift */,
 				20CD82082C343C0500FF0EE3 /* ContentView.swift */,
 				20CD820A2C343C0500FF0EE3 /* Assets.xcassets */,
@@ -65,6 +74,16 @@
 				20CD820D2C343C0500FF0EE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20CD82142C343C1100FF0EE3 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				20CD82162C343C1100FF0EE3 /* Theme.swift */,
+				20CD82152C343C1100FF0EE3 /* Fonts.swift */,
+				20CD82172C343C1100FF0EE3 /* Colors.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +102,9 @@
 			dependencies = (
 			);
 			name = SwiftRUIExample;
+			packageProductDependencies = (
+				20CD821C2C343C1D00FF0EE3 /* SwiftRUI */,
+			);
 			productName = SwiftRUIExample;
 			productReference = 20CD82032C343C0500FF0EE3 /* SwiftRUIExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 20CD81FA2C343C0500FF0EE3;
+			packageReferences = (
+				20CD821B2C343C1D00FF0EE3 /* XCRemoteSwiftPackageReference "SwiftRUI" */,
+			);
 			productRefGroup = 20CD82042C343C0500FF0EE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CD82092C343C0500FF0EE3 /* ContentView.swift in Sources */,
+				20CD821A2C343C1100FF0EE3 /* Colors.swift in Sources */,
+				20CD82192C343C1100FF0EE3 /* Theme.swift in Sources */,
+				20CD82182C343C1100FF0EE3 /* Fonts.swift in Sources */,
 				20CD82072C343C0500FF0EE3 /* SwiftRUIExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20CD821B2C343C1D00FF0EE3 /* XCRemoteSwiftPackageReference "SwiftRUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sweekwang/SwiftRUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20CD821C2C343C1D00FF0EE3 /* SwiftRUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20CD821B2C343C1D00FF0EE3 /* XCRemoteSwiftPackageReference "SwiftRUI" */;
+			productName = SwiftRUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20CD81FB2C343C0500FF0EE3 /* Project object */;
 }
